@@ -8,6 +8,8 @@ Crée un Vhost pour Nginx
 
 Dépend de W3M pour son bon fonctionnement (Debian / Ubuntu)
 ```
+https://raw.githubusercontent.com/BryanRahmani/DMN/master/vhost.sh
+chmod 777 vhost.sh
 apt-get install w3m
 nano ~/.bashrc
 alias dmn='/votre chemin/vhost.sh'
