@@ -4,12 +4,18 @@ Crée un Vhost pour Nginx
 # Version
 -  1.0 (Beta)
 
-# Dépendence
+# Dépendence / Installation
 
 Dépend de W3M pour son bon fonctionnement (Debian / Ubuntu)
 ```
 apt-get install w3m
+nano ~/.bashrc
+alias dmn='/votre chemin/vhost.sh'
+source ~/.bashrc
+
 ```
+
+
 
 # Mode d'emploi
 
